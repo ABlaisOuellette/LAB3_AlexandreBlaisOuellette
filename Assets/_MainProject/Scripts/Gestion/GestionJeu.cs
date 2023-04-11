@@ -97,6 +97,7 @@ public class GestionJeu : MonoBehaviour
     //MÉTHODE POUR AFFICHER LE POINTAGE DU PREMIER NIVEAU
     //MÉTHODE POUR AFFICHER LE TEMPS DU NIVEAU 1
     //MÉTHODE POUR RETOUR AU MENU PRINCIPAL À PARTIR DU MENU DE PAUSE ???
+    //Le UI pour l'écran de fin avec temps et pointage
 
 
 }
