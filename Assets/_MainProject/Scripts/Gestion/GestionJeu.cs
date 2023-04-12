@@ -37,7 +37,7 @@ public class GestionJeu : MonoBehaviour
     {
         _pointage = 0;
         _txtAccrochage.text = "Accrochages : " + _pointage;
-        Instruction();
+        //Instruction();
     }
 
     private void Update()
@@ -47,14 +47,14 @@ public class GestionJeu : MonoBehaviour
     }
 
 
-    private static void Instruction()
-    {
-        //Instructions du jeu
+    //private static void Instruction()
+    //{
+    //    //Instructions du jeu
 
-        Debug.Log("Course à obstacles");
-        Debug.Log("Atteindre le sphinx le plus rapidement possible");
-        Debug.Log("Chaque obstacle touché entraînera une pénalité");
-    }
+    //    Debug.Log("Course à obstacles");
+    //    Debug.Log("Atteindre le sphinx le plus rapidement possible");
+    //    Debug.Log("Chaque obstacle touché entraînera une pénalité");
+    //}
 
 
     private void GestionPause()
@@ -93,11 +93,7 @@ public class GestionJeu : MonoBehaviour
         _enPause = false;
     }
 
-    //À FAIRE 
-    //MÉTHODE POUR AFFICHER LE POINTAGE DU PREMIER NIVEAU
-    //MÉTHODE POUR AFFICHER LE TEMPS DU NIVEAU 1
-    //MÉTHODE POUR RETOUR AU MENU PRINCIPAL À PARTIR DU MENU DE PAUSE ???
-    //Le UI pour l'écran de fin avec temps et pointage
+    
 
 
 }

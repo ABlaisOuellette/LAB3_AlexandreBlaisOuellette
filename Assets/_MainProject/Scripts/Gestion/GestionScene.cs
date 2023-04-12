@@ -5,6 +5,23 @@ using UnityEngine.SceneManagement;
 
 public class GestionScene : MonoBehaviour
 {
+    //Attributs
+
+    [SerializeField] private GameObject _menuInstruction = default;
+    private bool _menuOuvert = false;
+
+    //Méthodes publiques
+
+    public void Instruction()
+    {
+        //Affiche les instructions du jeu
+
+        if (!_menuOuvert)
+        {
+            _menuInstruction.SetActive(true);
+            _menuOuvert =true;
+        }
+    }
 
     public void ChangerSceneSuivante()
     {
